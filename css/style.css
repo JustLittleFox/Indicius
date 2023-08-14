@@ -1,0 +1,527 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1120px;
+    min-width: 991px;
+    margin: 0 auto;
+}
+
+.bgnav {
+    background-color: #3098F3;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.links a:hover {
+    color: black;
+}
+
+/* ______________________________________________ */
+
+.header {
+    background-color: #3098F3;
+
+}
+
+.info {
+    margin-top: 240px;
+}
+
+.infotxt {
+    width: 580px;
+    font-size: 51px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    padding-bottom: 250px;
+}
+
+.infotxt :last-child {
+    color: #FFCC00;
+}
+
+/* ___________________________________________________ */
+
+.minfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 210px;
+}
+
+.mtxt {
+    font-size: 42px;
+    line-height: 50px;
+    color: #05051E;
+    width: 45%;
+    margin-top: -78px;
+}
+
+.circles {
+    display: flex;
+    width: 37%;
+    justify-content: flex-end;
+    flex-flow: row wrap-reverse;
+    margin-bottom: 80px;
+
+}
+
+.mcircle1 {
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background-color: #FE6571;
+    order: 1;
+    margin-right: 21px;
+    background-image: url(../img/frame1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mcircle2 {
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background-color: #FFCC00;
+    order: 2;
+    background-image: url(../img/frame2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mcircle3 {
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    background-color: #3098F3;
+    order: 3;
+    background-image: url(../img/frame3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+/* ____________________________________ */
+
+.minfo2 {
+    background-color: #F2EAE2;
+    display: flex;
+    margin-top: 80px;
+    font-size: 0;
+
+}
+
+.img {
+    width: 50%;
+
+
+}
+
+.mtxt2 {
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.link svg {
+    margin-right: 8px;
+
+}
+
+
+.link:hover .circle {
+    fill: black;
+}
+
+.mtxt2 :first-child:hover {
+    color: black;
+}
+
+
+.mtxt2 :first-child {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    color: #3098F3;
+}
+
+.mtxt2 p {
+    font-size: 32px;
+    line-height: 38px;
+    color: #05051E;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.mtxt2 :last-child {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23px;
+    color: #05051E;
+}
+
+.minfo2:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.mlink {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.mlink1 {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: #3098F3;
+    border-radius: 100px;
+    padding: 16px 32px;
+    margin-bottom: 80px;
+}
+
+.mlink1:hover {
+    background-color: black;
+}
+
+/* _______________________________________________ */
+.section3 {
+    background-color: #FFCC00;
+}
+
+.minfo3 {
+    display: flex;
+    font-size: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mtxt3 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.mtxt3 h2 {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #05051E;
+    margin-top: 100px;
+}
+
+.mtxt3 p {
+    font-size: 24px;
+    line-height: 34px;
+    color: #05051E;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.mtxt3 a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23px;
+    color: #05051E;
+    margin-right: auto;
+}
+
+.mimg3 {
+    display: flex;
+    width: 57%;
+    margin-top: 125px;
+    margin-bottom: 120px;
+}
+
+/* _____________________________________ */
+
+.section4 {
+    margin-top: 156px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mtxt4 h2 {
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #05051E;
+    margin-bottom: 20px;
+}
+
+.mtxt4 p {
+    font-size: 24px;
+    line-height: 34px;
+    color: #05051E;
+    margin-bottom: 55px;
+}
+
+.list {
+    display: flex;
+    margin: 0 -16px 30px;
+}
+
+.item {
+    width: 33.333%;
+    padding: 0 16px;
+}
+
+.frame {
+    max-height: 100%;
+}
+
+.box {
+    padding: 40px 40px 37px 40px;
+    background-color: #3098F3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+
+
+.box p {
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
+.box a {
+    align-self: flex-end;
+    padding-top: 48px;
+}
+
+
+.boxlink:hover path {
+    fill: #FFFFFF;
+}
+
+
+
+.section4:last-child .link {
+    text-decoration: none;
+    align-self: flex-end;
+    font-size: 18px;
+    line-height: 23px;
+    color: #05051E;
+    margin-right: 10px;
+}
+
+/* _______________________________ */
+
+.footer {
+    background-color: #082C4E;
+    margin-top: 25px;
+    padding-bottom: 100px;
+
+}
+
+.finfo {
+    background-image: url(../img/frame10.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.ftxt {
+    padding-top: 125px;
+}
+
+.ftxt h3 {
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    width: 50%;
+    margin-bottom: 54px;
+}
+
+.ftxt a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 100px;
+    border: 1px solid #FFCC00;
+    padding: 15px 32px;
+    background-color: #FFCC00;
+    color: #082C4E;
+
+}
+
+.ftxt a:hover {
+    background-color: #082C4E;
+    color: #FFFFFF;
+}
+
+/* _______________________________________________ */
+
+.ftxtbot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 195px;
+    height: 250px;
+
+}
+
+.ftxtbot1 {
+    font-size: 17px;
+    line-height: 34px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+}
+
+.ftxtbot1 a {
+    text-decoration: none;
+    margin-bottom: auto;
+    font-size: 17px;
+    line-height: 34px;
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-right: auto;
+
+}
+
+.ftxtbot1 a:hover {
+    color: black;
+}
+
+.ftxtbot2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.fbotlist {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-bottom: auto;
+    margin-top: 9px;
+}
+
+.fbotlist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.fbotlist a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.fbotlist a:hover {
+    color: black;
+}
+
+.ftxtbot2 p {
+    font-size: 12px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 3px;
+}
+
+
+.emailinput {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.emailinput input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.emailinput .btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mailbtn {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn:hover svg path {
+    fill: #000;
+    stroke: #000;
+}
+
+
+.emailinput input::placeholder {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 34px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.ftxtbot3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0;
+    text-decoration: none;
+    margin-top: 105px;
+    width: 110px;
+    align-items: end;
+}
+
+.socialpath:hover path {
+    fill: black;
+}
